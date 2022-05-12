@@ -21,7 +21,7 @@ html{
 body{
    margin: 0;
    padding: 0;
-   height: 200vh;
+   height: 300vh;
 
    background-color: var(--corW);
 }
@@ -84,7 +84,7 @@ main{
 }
 .button{
     position: absolute;
-    bottom: 18%;
+    bottom: 11%;
 }
 .estiloButton{
     padding: 16px 36px 16px 36px;
@@ -114,11 +114,15 @@ main{
 /*Segunda seção*/
 
 .informacoes{
+   
+    max-width: 1000px;
+    height: 270px;
+
     display: flex;
     align-items: center;
-    max-width: 1000px;
     margin: auto;
     position: relative;
+    margin-top: 4%;
 }
 .informacoes h3{
     font-family: var(--font1);
@@ -178,4 +182,11 @@ main{
     position: absolute;
     top: 0%;
     left: 71%;
+}
+
+/*Terceira seção*/
+.background{
+    background-color: var(--corW200);
+    height: 475px;
+    position: relative; 
 }
