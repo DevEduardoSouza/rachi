@@ -1,0 +1,181 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Sora:wght@100;200;300;400;500;600;700;800&display=swap');
+
+:root{
+    --corBlue:#0F9AFE;
+    --corW:#FFFFFF;
+    --corW400:#EFF8FF;
+    --corG:#6E7275;
+    --corW200:#EFF8FF;
+    --corGL:#DBDBDB;
+    --corG200:#293145;
+
+    --font1: "Sora", sans-serif;
+    --font2: "Inter", sans-serif;
+}
+
+html{
+    font-size: 50.5%;
+}
+
+body{
+   margin: 0;
+   padding: 0;
+   height: 200vh;
+
+   background-color: var(--corW);
+}
+
+header{
+  max-width: 1000px;
+  width: 90%;
+  height: 46px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav li{
+    display: inline;
+    padding: 4px 27px 4px 48px;
+}
+nav li a{
+    display: inline;
+    text-decoration: none;
+
+    font-family: var(--font2);
+    font-weight: 400;
+    font-size: 1.8rem;
+    color: var(--corG);
+}
+nav li a:hover{
+    color: #293145;
+    transition: .5s;
+}
+main{
+    margin: auto;
+    max-width: 1500px;
+    position: relative;
+}
+.primeiroConteudo{
+    background-color: var(--corW200);
+    height: 590px;
+    position: relative; 
+}
+
+.conteudo{
+    max-width: 1000px;
+    position: absolute;
+    top: 0%;
+    left: 13%;
+    display: flex;
+    align-items: center;
+    
+}
+.conteudo > h1{
+    font-family: var(--font1);
+    font-weight: 600;
+    font-size: 4.8rem;
+    color: var(--corG200);
+    line-height: 6.3rem;
+    margin: 0%;
+    
+}
+.button{
+    position: absolute;
+    bottom: 18%;
+}
+.estiloButton{
+    padding: 16px 36px 16px 36px;
+    display: block;
+    border-radius: 50px;
+    background-color: var(--corBlue);
+    color: white;
+    border: none;
+    box-shadow: 3px 4px 15px rgba(0, 0, 0, 0.329);
+}
+.estiloButton > a{
+    text-decoration: none;
+    color: white;
+    padding: 14px 33px 14px 38px;
+    margin: -3px -25px 0px -28px;
+    
+}
+.estiloButton:hover{
+    background-color: #054c80;
+    transition: .9s;
+}
+.imgJovem{
+    width: 500px;
+    height: 500px;
+}
+
+/*Segunda seção*/
+
+.informacoes{
+    display: flex;
+    align-items: center;
+    max-width: 1000px;
+    margin: auto;
+    position: relative;
+}
+.informacoes h3{
+    font-family: var(--font1);
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 2.0rem;
+    text-align: left;
+    margin-top: 14%;
+    
+}
+
+.crieConexoes h3{
+    display: block;
+    text-align: center;
+    position: absolute;
+    top: 35%;
+    left: -20%;
+}
+.gratuidade h3{
+    position: absolute;
+    top: 35%;
+    left: -14%;
+}
+.compartilhamento h3{
+    position: absolute;
+    top: 35%;
+    left: -26%;
+}
+
+.informacoes p{
+    font-size: 1.6rem;
+    color: #6E7275;
+    margin-top: 40%;
+    width: 150px;
+    margin-left: -27%;
+}
+
+.Infos > h2{
+    font-size: 4.0rem;
+    font-weight: 600;
+    font-family: var(--font1);
+    line-height: 11rem;
+    text-align: center;
+    color: #293145;
+}
+.crieConexoes{
+    position: absolute;
+    top: 0%;
+    left: 23%;
+}
+.gratuidade{
+    position: absolute;
+    top: 0%;
+    left: 47%;
+}
+.compartilhamento{
+    position: absolute;
+    top: 0%;
+    left: 71%;
+}
