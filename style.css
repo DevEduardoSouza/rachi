@@ -242,3 +242,89 @@ main{
     top: 60%;
     left: 13%;
 }
+
+.planos{
+    border: red 1px solid;
+    max-width: 1000px;
+    width: 90%;
+    margin: auto;
+}
+.textPlanos{
+    border: red 1px solid;
+}
+.textPlanos{
+    text-align: center;
+}
+.textPlanos > h2{
+    font-family: var(--font1);
+    font-weight: 600;
+    font-size: 4.0rem;
+    color: #293145;
+    
+}
+.textPlanos > p{
+    color: black;
+    font-family: var(--font2);
+    font-weight: 400;
+    font-size: 1.8rem;
+    color:#6E7275;
+    margin-top: -2%;
+}
+.tiposPlanos{
+    display: flex;
+    align-items: center;
+}
+.planoBronze, .planoPrata, .planoOuro{
+    border: red 1px solid;
+    width: 370px;
+    height: 400px;
+    margin-right:2%;
+    border-radius: 8px;
+}
+
+.planoBronze, .planoOuro{
+    background-color:#EFF8FF;
+    
+}
+ .planos h3{
+    font-family: var(--font1);
+    font-weight: 600;
+    font-size: 2.9rem;
+    color: #293145;
+    text-align: center;
+}
+.planos h3{
+    font-family: var(--font1);
+    font-weight: 600;
+    font-size: 2.9rem;
+    color: #293145;
+    text-align: center;
+}
+.valores{
+    font-family: var(--font2);
+    font-weight: 700;
+    font-size: 5.0rem;
+    color: #293145;
+    text-align: center;
+}
+.beneficios{
+    font-family: var(--font2);
+    font-weight: 400;
+    font-size: 1.8rem;
+    color:#6E7275;
+    text-align: center;
+    width: 273px;
+    margin: auto;
+}
+
+.planoBronze{
+    
+    
+}
+.planoOuro{
+    margin: 0;
+}
+
+
+
+
