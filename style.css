@@ -22,9 +22,7 @@ body{
    margin: 0;
    padding: 0;
    box-sizing: 0;
-
-   height: 300vh;
-
+   height: 400vh;
    background-color: var(--corW);
 }
 
@@ -243,14 +241,15 @@ main{
     left: 13%;
 }
 
+
+/**/
 .planos{
-    border: red 1px solid;
     max-width: 1000px;
     width: 90%;
     margin: auto;
 }
 .textPlanos{
-    border: red 1px solid;
+   
 }
 .textPlanos{
     text-align: center;
@@ -269,37 +268,69 @@ main{
     font-size: 1.8rem;
     color:#6E7275;
     margin-top: -2%;
+    line-height: 2.9rem;
 }
 .tiposPlanos{
     display: flex;
-    align-items: center;
+    justify-content: center;
+    margin-top: 7%;
+    
+    
+    
 }
 .planoBronze, .planoPrata, .planoOuro{
-    border: red 1px solid;
     width: 370px;
     height: 400px;
-    margin-right:2%;
+    margin-right:3%;
     border-radius: 8px;
+    position: relative;
 }
 
 .planoBronze, .planoOuro{
     background-color:#EFF8FF;
+}
+.planoPrata{
+    background-color: #293145;
     
 }
- .planos h3{
+.colorPrata {
+    color: white;
     font-family: var(--font1);
     font-weight: 600;
-    font-size: 2.9rem;
-    color: #293145;
+    font-size: 3.5rem;
     text-align: center;
+    margin-top: 25px ;
+    
 }
-.planos h3{
+.preferido{
+    width: 150px;
+    height: 22px;
+    background-color: #0F9AFE;
+    border-radius: 15px;
+    margin: auto;
+    margin-top:-5%;
+    
+}
+.preferido p{
+    text-align: center; 
+    font-family: var(--font1);
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 3.0rem;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-style: none;
+}
+
+ .color_B_O{
     font-family: var(--font1);
     font-weight: 600;
-    font-size: 2.9rem;
+    font-size: 2.6rem;
     color: #293145;
     text-align: center;
+    margin-top: 30px ;
 }
+
 .valores{
     font-family: var(--font2);
     font-weight: 700;
@@ -307,20 +338,60 @@ main{
     color: #293145;
     text-align: center;
 }
-.beneficios{
+.valoresPrata{
+    font-family: var(--font2);
+    font-weight: 700;
+    font-size: 5.5rem;
+    color: white;
+    text-align: center;
+    margin: 6%;
+}
+sup, span{
+    font-size: 2.0rem;
+}
+.beneficios,.beneficiosPrata{
     font-family: var(--font2);
     font-weight: 400;
     font-size: 1.8rem;
+    line-height: 22px;
     color:#6E7275;
     text-align: center;
     width: 273px;
     margin: auto;
 }
-
-.planoBronze{
-    
-    
+.beneficiosPrata{
+      color: white; 
 }
+.butao{
+    text-align: center;
+}
+.buttonPlanos{
+    width: 230px;
+    height: 43px;
+    border-radius: 50px;
+    border: none;
+    background-color: #0F9AFE;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.37);
+    position: absolute;
+    bottom: 10%;
+    left: 13%;
+    cursor: pointer;
+}
+.buttonPlanos:hover{
+    background-color: #054c80;
+    transition: .9s;
+    width: 235px;
+}
+button a{
+    text-decoration: none;
+    font-family: var(--font2);
+    font-weight: 500;
+    font-size: 2.0rem;
+    line-height: 22px;
+    color:white;
+}
+
+  
 .planoOuro{
     margin: 0;
 }
