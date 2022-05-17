@@ -14,14 +14,18 @@
     --font2: "Inter", sans-serif;
 }
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
 html{
     font-size: 50.5%;
 }
 
 body{
-   margin: 0;
-   padding: 0;
-   box-sizing: 0;
    height: 400vh;
    background-color: var(--corW);
 }
@@ -80,8 +84,8 @@ main{
     color: var(--corG200);
     line-height: 6.3rem;
     margin: 0%;
-    
 }
+
 .button{
     position: absolute;
     bottom: 11%;
