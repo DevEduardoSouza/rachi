@@ -122,45 +122,32 @@ main{
     max-width: 1000px;
     height: 270px;
     display: flex;
-    align-items: center;
+    justify-content: center;
     margin: auto;
     position: relative;
     margin-top: 4%;
 }
+
 .informacoes h3{
     font-family: var(--font1);
     font-weight: 600;
     font-size: 1.8rem;
     line-height: 2.0rem;
-    text-align: left;
-    margin-top: 14%;
-    
+    text-align: center;
+    margin-top: 14%;  
 }
 
-.crieConexoes h3{
-    display: block;
+.incones{
     text-align: center;
-    position: absolute;
-    top: 35%;
-    left: -20%;
-}
-.gratuidade h3{
-    position: absolute;
-    top: 35%;
-    left: -14%;
-}
-.compartilhamento h3{
-    position: absolute;
-    top: 35%;
-    left: -26%;
 }
 
 .informacoes p{
     font-size: 1.6rem;
     color: #6E7275;
-    margin-top: 40%;
-    width: 150px;
-    margin-left: -27%;
+    margin-top: 30%;
+    width: 155px;
+    text-align: center;
+    
 }
 
 .Infos > h2{
@@ -170,21 +157,12 @@ main{
     line-height: 11rem;
     text-align: center;
     color: #293145;
+    
 }
-.crieConexoes{
-    position: absolute;
-    top: 0%;
-    left: 23%;
-}
+
 .gratuidade{
-    position: absolute;
-    top: 0%;
-    left: 47%;
-}
-.compartilhamento{
-    position: absolute;
-    top: 0%;
-    left: 71%;
+
+    margin: 0% 8%;
 }
 
 /*Terceira seção*/
