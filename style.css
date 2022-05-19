@@ -380,6 +380,58 @@ button a{
     margin: 0;
 }
 
+/**/
+.backgroundNotebook{
+    position: relative;
+    
+  
+}
+.backgroundNotebook > img{
+    width: 100%;  
+    
+}
+.conteudoInput{
+   
+    border: 1px red solid;
+    
+    
+}
+.conteudo_text_input{
+    border: 1px red solid;
+    text-align: center;
+    position: absolute;
+    top: 13%;
+    left: 31%;
+}
 
-
+.conteudo_text_input > h2{
+    font-family: var(--font1);
+    font-size: 4.0rem;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+.conteudo_text_input > p{
+    font-family: var(--font2);
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+    text-align: center;
+    color: #DBDBDB;
+    width: 384px;
+    
+}
+.inpuBtn{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 66%;
+    left: 37%;
+}
+.inpuBtn > input{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    border-bottom: #DBDBDB 1px solid;
+    color: white;
+}
 
