@@ -26,7 +26,7 @@ html{
 }
 
 body{
-   height: 400vh;
+   height: 100vh;
    background-color: var(--corW);
 }
 
@@ -429,15 +429,17 @@ button a{
     border: none;
     border-bottom: #DBDBDB 1px solid;
     color: white;
+    padding: 5px;
+    padding-left: 0px;
 }
 
 .buttonInput{
-    width: 90px;
-    height: 29px;
+    width: 118px;
+    height: 30px;
     border-radius: 50px;
     border: none;
     background-color: #0F9AFE;
-    margin-left: 9%;
+    margin-left: 12%;
     cursor: pointer;
 }
 .buttonInput > a{
@@ -449,4 +451,16 @@ button a{
     background-color: #054c80;
     transition: .9s;
 }
+.conteinerFooter{
+    margin: 2% 0%;
+}
+.conteinerFooter > p{
+    font-family: var(--font1);
+    font-size: 2.0rem;
+    font-weight: 400;
+    color: #293145;
+
+    text-align: center;
+}
+
 
