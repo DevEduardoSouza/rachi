@@ -383,25 +383,20 @@ button a{
 /**/
 .backgroundNotebook{
     position: relative;
-    
+    margin-top: 9%;
   
 }
 .backgroundNotebook > img{
     width: 100%;  
-    
 }
 .conteudoInput{
    
-    border: 1px red solid;
-    
-    
 }
 .conteudo_text_input{
-    border: 1px red solid;
     text-align: center;
     position: absolute;
     top: 13%;
-    left: 31%;
+    left: 34%;
 }
 
 .conteudo_text_input > h2{
@@ -418,14 +413,15 @@ button a{
     text-align: center;
     color: #DBDBDB;
     width: 384px;
+    margin-top: 15px;
     
 }
 .inpuBtn{
     display: flex;
     align-items: center;
     position: absolute;
-    top: 66%;
-    left: 37%;
+    top: 64%;
+    left: 39%;
 }
 .inpuBtn > input{
     background-color: transparent;
@@ -433,5 +429,24 @@ button a{
     border: none;
     border-bottom: #DBDBDB 1px solid;
     color: white;
+}
+
+.buttonInput{
+    width: 90px;
+    height: 29px;
+    border-radius: 50px;
+    border: none;
+    background-color: #0F9AFE;
+    margin-left: 9%;
+    cursor: pointer;
+}
+.buttonInput > a{
+    width: 90px;
+    height: 29px;
+    font-size: 1.6rem;
+}
+.buttonInput:hover{
+    background-color: #054c80;
+    transition: .9s;
 }
 
