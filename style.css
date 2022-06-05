@@ -77,11 +77,13 @@ main{
     
 }
 .conteudo > h1{
+    width: 562px;
+    height: 131px;
     font-family: var(--font1);
     font-weight: 600;
-    font-size: 4.8rem;
+    font-size: 4.2rem;
     color: var(--corG200);
-    line-height: 6.3rem;
+    line-height: 45px;
     margin: 0%;
 }
 
@@ -468,10 +470,194 @@ button a{
 }
 
 @media(max-width:1172px){
-    html,body{
-        font-size: 50.5%;
+    .conteudo > h1{
+        width: 531px;
+        height: 117px;
+    }
+    .imgJovem{
+        width: 400px;
+        height: 400px;
+
+    }
+    .conteudo {
+        left: 10%; 
+    }
+}
+@media(max-width:1085px){
+    .conteudo > h1{
+        width: 464px;
+        height: 118px;
+    }
+
+    .imgNoti{
+        width: 350px;
+        height: 350px;
+    }
+    .buttonPlanos{
+        width: 200px;
+        height: 33px;
+    }
+}
+@media(max-width:960px){
+
+    .conteudo > h1{
+        width: 364px;
+        height: 118px;
+        font-size: 3.5rem;
+        width: 482px;
+        height: 114px;
+        font-size: 3.5rem;
+        line-height: 42px;
+    }
+
+    .conteudo {
+        left: 5%; 
     }
     
-    
+    .imgJovem{
+        width: 400px;
+        height: 400px;
+    }
+    .imgNoti{
+        width: 350px;
+        height: 350px;
+    }
+    .buttonPlanos{
+        width: 200px;
+        height: 33px;
+    }
 }
+@media(max-width:930px){
 
+    .conteudo > h1 {
+        width: 357px;
+        height: 118px;
+        font-size: 3.5rem;
+        width: 429px;
+        height: 82px;
+        font-size: 3.1rem;
+        line-height: 37px;
+    }
+
+    .conteudo {
+        left: 6%; 
+    }
+    
+    .imgJovem{
+        width: 400px;
+        height: 400px;
+    }
+    .imgNoti{
+        width: 350px;
+        height: 350px;
+    }
+    .buttonPlanos{
+        width: 200px;
+        height: 33px;
+    }
+}
+@media(max-width:900px){
+    .conteudo > h1 {
+    width: 357px;
+    height: 118px;
+    font-size: 3.5rem;
+    width: 369px;
+    height: 86px;
+    font-size: 2.9rem;
+    line-height: 39px;
+  }
+    .conteudo {
+        left: 6%; 
+    }
+    
+    .imgJovem{
+        width: 400px;
+        height: 400px;
+    }
+    .imgNoti{
+        width: 350px;
+        height: 350px;
+    }
+    .buttonPlanos{
+        width: 200px;
+        height: 33px;
+    }
+}
+@media(max-width:820px){
+    .conteudo > h1 {
+    width: 357px;
+    height: 118px;
+    font-size: 3.5rem;
+    width: 369px;
+    height: 86px;
+    font-size: 2.9rem;
+    line-height: 39px;
+  }
+    .conteudo {
+        left: 6%; 
+    }
+    
+    .imgJovem{
+        width: 300px;
+        height: 300px;
+    }
+    .imgNoti{
+        width: 350px;
+        height: 350px;
+    }
+    .buttonPlanos{
+        width: 200px;
+        height: 33px;
+    }
+}
+@media(max-width:762px){
+    nav li {
+        padding: 2px 4px 4px 46px;
+    }
+  
+}
+@media(max-width:650px){
+    nav li {
+        padding: 2px 4px 4px 15px;
+    }
+}
+@media(max-width:640px){
+    .conteudo > h1 {
+        
+        width: 357px;
+        height: 118px;
+        font-size: 3.5rem;
+        width: 306px;
+        height: 88px;
+        font-size: 2.5rem;
+        line-height: 30px;
+
+        margin: auto;
+        margin-top: 10%;
+  }
+    br{
+        display: none;
+    }
+    .conteudo {
+        flex-wrap: wrap;
+        left: 6%; 
+    }
+    
+    .imgJovem{
+        width: 500px;
+        height: 500px;
+    }
+    .imgNoti{
+        width: 350px;
+        height: 350px;
+    }
+    .buttonPlanos{
+        width: 200px;
+        height: 33px;
+    }
+}
+@media(max-width:540px){
+    nav li {
+        display: none;
+    }
+}
