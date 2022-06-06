@@ -482,6 +482,9 @@ button a{
     .conteudo {
         left: 10%; 
     }
+    .primeiroConteudo {
+        height: 463px;
+    }
 }
 @media(max-width:1085px){
     .conteudo > h1{
@@ -560,7 +563,6 @@ button a{
     .conteudo > h1 {
     width: 357px;
     height: 118px;
-    font-size: 3.5rem;
     width: 369px;
     height: 86px;
     font-size: 2.9rem;
@@ -592,14 +594,27 @@ button a{
     height: 86px;
     font-size: 2.9rem;
     line-height: 39px;
-  }
+    }
     .conteudo {
         left: 6%; 
     }
-    
+    .button{
+       position: absolute;
+       top: 80%;
+    }
+    .estiloButton {
+        padding: 11px 36px;
+    }
+    .Infos > h2 {
+        font-size: 3.5rem;
+        
+    }
     .imgJovem{
         width: 300px;
         height: 300px;
+    }
+    .primeiroConteudo {
+        height: 359px;
     }
     .imgNoti{
         width: 350px;
@@ -616,6 +631,14 @@ button a{
     }
   
 }
+@media(max-width:720px){
+    
+    .conteudo > h1 {
+        width: 300px;
+        height: 86px;
+        font-size: 2.6rem;
+      }
+}
 @media(max-width:650px){
     nav li {
         padding: 2px 4px 4px 15px;
@@ -626,14 +649,12 @@ button a{
         
         width: 357px;
         height: 118px;
-        font-size: 3.5rem;
         width: 306px;
-        height: 88px;
         font-size: 2.5rem;
         line-height: 30px;
-
         margin: auto;
-        margin-top: 10%;
+        margin-top: 5%;
+        
   }
     br{
         display: none;
@@ -642,10 +663,22 @@ button a{
         flex-wrap: wrap;
         left: 6%; 
     }
+    .primeiroConteudo{
+        height: 450px;
+    }
+
+    .button{
+       position: absolute;
+       top: 93%;
+       left: 30%;
+     }
+
     
     .imgJovem{
-        width: 500px;
-        height: 500px;
+        width: 340px;
+        height: 340px;
+        margin: auto;
+        margin-top: -14%;
     }
     .imgNoti{
         width: 350px;
@@ -660,4 +693,37 @@ button a{
     nav li {
         display: none;
     }
+    .informacoes {
+        flex-wrap: wrap;
+    }
+    .Infos{
+        height: 750px;
+    }
+   .crieConexoes,.gratuidade,.compartilhamento{
+        width: 370px;
+        height: 186px;
+    }
+    .informacoes h3 {
+        margin-top: 4%;
+    }
+    .informacoes p {
+        margin-top: 3%;
+        margin-left: 29%;
+    }
+    .Infos > h2 {
+        font-size: 3.0rem;
+        margin-top: 2%;
+        
+    }
+    
+}
+@media(max-width:470px){
+    nav li {
+        display: none;
+    }
+    .button{
+        position: absolute;
+        top: 93%;
+        left: 20%;
+     }
 }
