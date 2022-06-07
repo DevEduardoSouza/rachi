@@ -372,7 +372,6 @@ sup, span{
 .buttonPlanos:hover{
     background-color: #054c80;
     transition: .9s;
-    width: 235px;
 }
 button a{
     text-decoration: none;
@@ -500,6 +499,10 @@ button a{
         width: 200px;
         height: 33px;
     }
+    .beneficios,.beneficiosPrata{
+        font-size: 1.6rem ;
+        width: 241px;
+    }
 }
 @media(max-width:960px){
 
@@ -528,6 +531,12 @@ button a{
     .buttonPlanos{
         width: 200px;
         height: 33px;
+    }
+    .beneficios,.beneficiosPrata{
+        font-size: 1.5rem ;
+        width: 241px;
+        margin: auto;
+    
     }
 }
 @media(max-width:930px){
@@ -571,6 +580,42 @@ button a{
     .conteudo {
         left: 6%; 
     }
+    .tiposPlanos{
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin: auto;
+    }
+    .planoBronze,.planoPrata,.planoOuro{
+        margin: auto;
+        max-width: 421px;
+        width: 90%;
+        height: 393px;
+        margin-top: 5%; 
+    }
+    .planos{
+        max-width: 800px;
+        width: 90%;
+        height: 1400px ;
+    }
+    .beneficios,.beneficiosPrata{
+        text-align: center;
+        position: absolute;
+        top: 48%;
+        left: 2%;
+        font-size: 1.9rem;
+        width: 400px;
+    }
+    .valores{
+        position: absolute;
+        top: 21%;
+        left: 37%;
+    }
+    .buttonPlanos{
+        position: absolute;
+        top: 79%;
+        left: 25%;
+    }
+    
     
     .imgJovem{
         width: 400px;
@@ -715,6 +760,13 @@ button a{
         margin-top: 2%;
         
     }
+    .beneficios, .beneficiosPrata {
+        position: absolute;
+        top: 48%;
+        left: 21%;
+        font-size: 1.8rem;
+        width: 250px;
+    }
     
 }
 @media(max-width:470px){
@@ -726,4 +778,11 @@ button a{
         top: 93%;
         left: 20%;
      }
+     .beneficios, .beneficiosPrata {
+        position: absolute;
+        top: 46%;
+        left: 24%;
+        font-size: 1.5rem;
+        width: 200px;
+    }
 }
