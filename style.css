@@ -503,6 +503,10 @@ button a{
         font-size: 1.6rem ;
         width: 241px;
     }
+    .text > h2{
+        width: 436px;
+        font-size: 23px;
+    }
 }
 @media(max-width:960px){
 
@@ -521,8 +525,8 @@ button a{
     }
     
     .imgJovem{
-        width: 400px;
-        height: 400px;
+        width: 350px;
+        height: 350px;
     }
     .imgNoti{
         width: 350px;
@@ -559,24 +563,62 @@ button a{
         width: 400px;
         height: 400px;
     }
-    .imgNoti{
+
+    .text > h2{
+        margin: auto;
+        
+    }
+    .text > p{
+        text-align: center;
+        top: 110%;
+        left: 48%;
+        transform: translateX(-50%);
+    }
+    .conteudoTerceira {
+        top: 88%;
+        left: 48%;
+        transform: translateX(-50%);
+    }
+    .conteinerLarg{
+        
+        width: 100%;
+        height: 677px;
+        margin: auto;
+    }
+     .imgApp{
+        
+    }
+    .conteudoMain {
+        position: absolute;
+        top: -6%;
+        left: 0%;
+        max-width: 1000px;
+        width: 100%;
+    }
+    .imgNoti {
         width: 350px;
         height: 350px;
+        position: absolute;
+        top: 192%;
+        left: -3%;
     }
     .buttonPlanos{
         width: 200px;
         height: 33px;
     }
+    .background {  
+        height: 672px;
+    }
 }
 @media(max-width:900px){
     .conteudo > h1 {
-    width: 357px;
-    height: 118px;
-    width: 369px;
-    height: 86px;
-    font-size: 2.9rem;
-    line-height: 39px;
-  }
+        width: 357px;
+        height: 118px;
+        width: 369px;
+        height: 86px;
+        font-size: 2.9rem;
+        line-height: 39px;
+    }
     .conteudo {
         left: 6%; 
     }
@@ -674,7 +716,7 @@ button a{
     nav li {
         padding: 2px 4px 4px 46px;
     }
-  
+    
 }
 @media(max-width:720px){
     
@@ -682,6 +724,9 @@ button a{
         width: 300px;
         height: 86px;
         font-size: 2.6rem;
+      }
+      .app{
+          width: 150px;
       }
 }
 @media(max-width:650px){
@@ -734,6 +779,11 @@ button a{
         height: 33px;
     }
 }
+@media(max-width:610px){
+    .imgApp{
+        display: flex;
+    }
+}
 @media(max-width:540px){
     nav li {
         display: none;
@@ -768,6 +818,7 @@ button a{
         width: 250px;
     }
     
+    
 }
 @media(max-width:470px){
     nav li {
@@ -784,5 +835,10 @@ button a{
         left: 24%;
         font-size: 1.5rem;
         width: 200px;
+    }
+    .text > h2{
+        font-size: 1.9rem;
+        text-align: center;
+        
     }
 }
