@@ -540,7 +540,12 @@ button a{
         font-size: 1.5rem ;
         width: 241px;
         margin: auto;
-    
+    }
+    .conteudo_text_input > h2 {
+        font-size: 3.3rem; 
+    }
+    .conteudo_text_input > p {
+        font-size: 1.5rem;
     }
 }
 @media(max-width:930px){
@@ -585,9 +590,6 @@ button a{
         height: 677px;
         margin: auto;
     }
-     .imgApp{
-        
-    }
     .conteudoMain {
         position: absolute;
         top: -6%;
@@ -608,6 +610,9 @@ button a{
     }
     .background {  
         height: 672px;
+    }
+    .conteudo_text_input{
+
     }
 }
 @media(max-width:900px){
@@ -694,7 +699,6 @@ button a{
     }
     .Infos > h2 {
         font-size: 3.5rem;
-        
     }
     .imgJovem{
         width: 300px;
@@ -716,7 +720,6 @@ button a{
     nav li {
         padding: 2px 4px 4px 46px;
     }
-    
 }
 @media(max-width:720px){
     
@@ -736,7 +739,6 @@ button a{
 }
 @media(max-width:640px){
     .conteudo > h1 {
-        
         width: 357px;
         height: 118px;
         width: 306px;
@@ -744,8 +746,7 @@ button a{
         line-height: 30px;
         margin: auto;
         margin-top: 5%;
-        
-  }
+    }
     br{
         display: none;
     }
@@ -756,14 +757,11 @@ button a{
     .primeiroConteudo{
         height: 450px;
     }
-
     .button{
        position: absolute;
        top: 93%;
        left: 30%;
      }
-
-    
     .imgJovem{
         width: 340px;
         height: 340px;
