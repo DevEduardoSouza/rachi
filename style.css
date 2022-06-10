@@ -744,6 +744,9 @@ button a{
       .app{
           width: 150px;
       }
+      .imgNoti {
+        
+    }
 }
 @media(max-width:650px){
     nav li {
@@ -791,6 +794,9 @@ button a{
     }
     .conteinerFooter > p {
         font-size: 1.5rem;
+    }
+    .imgNoti {
+        margin-top: 7%;
     }
 }
 @media(max-width:610px){
