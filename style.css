@@ -612,7 +612,14 @@ button a{
         height: 672px;
     }
     .conteudo_text_input{
-
+        top: 15%;
+        left: 49%;
+        transform: translateX(-50%);
+    }
+    .inpuBtn {
+        top: 67%;
+        left: 49%;
+        transform: translateX(-50%);
     }
 }
 @media(max-width:900px){
@@ -662,8 +669,6 @@ button a{
         top: 79%;
         left: 25%;
     }
-    
-    
     .imgJovem{
         width: 400px;
         height: 400px;
@@ -679,13 +684,13 @@ button a{
 }
 @media(max-width:820px){
     .conteudo > h1 {
-    width: 357px;
-    height: 118px;
-    font-size: 3.5rem;
-    width: 369px;
-    height: 86px;
-    font-size: 2.9rem;
-    line-height: 39px;
+        width: 357px;
+        height: 118px;
+        font-size: 3.5rem;
+        width: 369px;
+        height: 86px;
+        font-size: 2.9rem;
+        line-height: 39px;
     }
     .conteudo {
         left: 6%; 
@@ -719,6 +724,13 @@ button a{
 @media(max-width:762px){
     nav li {
         padding: 2px 4px 4px 46px;
+    }
+    .inpuBtn {
+        margin-top: 10px;
+    }
+    .backgroundNotebook > img {
+        height: 200px;
+        width: 100vw;
     }
 }
 @media(max-width:720px){
@@ -775,6 +787,9 @@ button a{
     .buttonPlanos{
         width: 200px;
         height: 33px;
+    }
+    .conteinerFooter > p {
+        font-size: 1.5rem;
     }
 }
 @media(max-width:610px){
