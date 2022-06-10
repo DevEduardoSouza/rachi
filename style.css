@@ -366,6 +366,7 @@ sup, span{
     bottom: 10%;
     left: 13%;
     cursor: pointer;
+    display: block;
 }
 .buttonPlanos:hover{
     background-color: #054c80;
