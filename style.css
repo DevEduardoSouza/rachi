@@ -93,7 +93,10 @@ main{
     position: absolute;
     bottom: 11%;
 }
-.estiloButton{
+a{
+    text-decoration: none;
+}
+a .estiloButton{
     padding: 16px 36px 16px 36px;
     display: block;
     border-radius: 50px;
@@ -101,12 +104,9 @@ main{
     color: white;
     border: none;
     box-shadow: 3px 4px 15px rgba(0, 0, 0, 0.329);
+    cursor: pointer;
 }
-.estiloButton > a{
-    text-decoration: none;
-    color: white;
-    padding: 0px;
-}
+
 .estiloButton:hover{
     background-color: #054c80;
     transition: .9s;
@@ -354,9 +354,11 @@ sup, span{
 .beneficiosPrata{
       color: white; 
 }
-.butao{
+
+.btnPlanos{
     text-align: center;
 }
+
 .buttonPlanos{
     width: 230px;
     height: 43px;
@@ -369,12 +371,6 @@ sup, span{
     left: 13%;
     cursor: pointer;
     display: block;
-}
-.buttonPlanos:hover{
-    background-color: #054c80;
-    transition: .9s;
-}
-button a{
     text-decoration: none;
     font-family: var(--font2);
     font-weight: 500;
@@ -382,8 +378,11 @@ button a{
     line-height: 22px;
     color:white;
 }
+.buttonPlanos:hover{
+    background-color: #054c80;
+    transition: .9s;
+}
 
-  
 .planoOuro{
     margin: 0;
 }
@@ -452,11 +451,10 @@ button a{
     background-color: #0F9AFE;
     margin-left: 12%;
     cursor: pointer;
-}
-.buttonInput > a{
     width: 90px;
     height: 29px;
     font-size: 1.6rem;
+    color: white;
 }
 .buttonInput:hover{
     background-color: #054c80;
