@@ -456,6 +456,7 @@ sup, span{
     font-size: 1.6rem;
     color: white;
 }
+
 .buttonInput:hover{
     background-color: #054c80;
     transition: .9s;
