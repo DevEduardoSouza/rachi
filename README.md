@@ -1,6 +1,6 @@
 # Site de Venda de Planos - HTML e CSS
 ![Imagem do Acarne Parte 2](img/img_projeto.png)
-<a href="https://rachi.netlify.app">Link</a>
+<a href="https://rachi-projeto.netlify.app">Link</a>
 
 Este repositório contém um site desenvolvido em HTML e CSS, criado como um projeto de estudo para conhecer e praticar essas tecnologias. O objetivo do projeto é criar um template de venda de planos, focando no design e na estrutura do front-end.
 
