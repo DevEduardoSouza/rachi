@@ -86,10 +86,7 @@
 
           <div class="sharing-feature">
             <div class="icon">
-              <img
-                src="image/happy.svg"
-                alt="feliz"
-              />
+              <img src="image/happy.svg" alt="feliz" />
             </div>
 
             <h3>Compartilhamento</h3>
@@ -101,11 +98,11 @@
         </div>
       </section>
 
-      <div class="conteinerLarg">
-        <section class="conteinerApp">
-          <div class="background">
-            <div class="conteudoMain">
-              <div class="text">
+      <section class="container-app-info bg-default">
+        <div class="container">
+          <div class="content-app">
+            <div class="app-info">
+              <div class="app-decription">
                 <h2>
                   <a name="app">Baixe nosso app para desfrutar mais!</a>
                 </h2>
@@ -115,32 +112,29 @@
                   volutpat hac adipiscing tincidunt pretium.
                 </p>
               </div>
+              <div class="app-links">
+                <a href="#">
+                  <img src="img/download-app-google_store.svg" alt=""
+                /></a>
+                <a href="#">
+                  <img src="img/download-app-app_store.svg" alt=""
+                /></a>
+              </div>
+            </div>
+
+            <div class="image-container">
               <img
                 class="imgNoti"
                 src="img/New notifications-amico 1.png"
                 alt=""
               />
             </div>
-
-            <div class="conteudoTerceira">
-              <div class="imgApp">
-                <a href="#">
-                  <img
-                    class="app"
-                    src="img/download-app-google_store.svg"
-                    alt=""
-                /></a>
-                <a href="#">
-                  <img class="app" src="img/download-app-app_store.svg" alt=""
-                /></a>
-              </div>
-            </div>
           </div>
-        </section>
-      </div>
+        </div>
+      </section>
 
-      <section class="planos">
-        <div class="textPlanos">
+      <section class="pricing-plans container">
+        <div class="plans-text">
           <h2><a name="planos">Nossos Planos</a></h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
@@ -149,80 +143,86 @@
           </p>
         </div>
 
-        <div class="tiposPlanos">
-          <div class="planoBronze">
-            <h3 class="color_B_O">Bronze</h3>
-            <p class="valores"><sup>R$</sup>28 <span>/mês</span></p>
+        <div class="plans-types">
+          <div class="plan plan-bronze">
+            <h3>Bronze</h3>
+            <p class="price-values"><span>R$ 28/mês</span></p>
 
-            <p class="beneficios">
+            <p class="plan-benefits">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
               lacinia mi quis euismod ultrices.
             </p>
-            <div class="btnPlanos">
-              <a href="#"><button class="buttonPlanos">Assinar</button></a>
+            <div class="plan-button">
+              <a href="#"
+                ><button class="btn subscribe-button">Assinar</button></a
+              >
             </div>
           </div>
 
-          <div class="planoPrata">
-            <h3 class="colorPrata">Prata</h3>
-            <div class="preferido">
+          <div class="plan plan-silver">
+            <h3>Prata</h3>
+            <div class="favorite-badge">
               <p>preferido</p>
             </div>
 
-            <p class="valoresPrata"><sup>R$</sup>57<span>/mês</span></p>
-            <p class="beneficiosPrata">
+            <p class="price-values price-values-silver">
+              <span>R$ 57/mês</span>
+            </p>
+            <p class="plan-benefits">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
               lacinia mi quis euismod ultrices.
             </p>
-            <div class="btnPlanos">
-              <a href="#"><button class="buttonPlanos">Assinar</button></a>
+            <div class="plan-button">
+              <a href="#"
+                ><button class="btn subscribe-button">Assinar</button></a
+              >
             </div>
           </div>
 
-          <div class="planoOuro">
-            <h3 class="color_B_O">Ouro</h3>
-            <p class="valores"><sup>R$</sup>94<span>/mês</span></p>
-            <p class="beneficios">
+          <div class="plan plan-gold">
+            <h3>Ouro</h3>
+            <p class="price-values"><span>R$ 94/mês</span></p>
+            <p class="plan-benefits">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
               lacinia mi quis euismod ultrices.
             </p>
-            <div class="btnPlanos">
-              <a href="#"><button class="buttonPlanos">Assinar</button></a>
+            <div class="plan-button">
+              <a href="#"
+                ><button class="btn subscribe-button">Assinar</button></a
+              >
             </div>
           </div>
         </div>
       </section>
 
-      <section>
-        <div class="conteiener">
-          <div class="backgroundNotebook">
-            <div class="imgFundoForm"></div>
-
-            <div class="conteudoInput">
-              <div class="conteudo_text_input">
-                <h2><a name="contato">Contato</a></h2>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-                  lacinia mi quis euismod ultrices.
-                </p>
-              </div>
-
-              <form action="#" method="post">
-                <div class="inpuBtn">
-                  <input type="email" name="email" value="Seu melhor e-mail" />
-                  <a href=""
-                    ><input type="submit" class="buttonInput" value="Enviar"
-                  /></a>
-                </div>
-              </form>
+      <section class="send-contact-container">
+        <div class="container">
+          <div class="send-contact-content">
+            <div>
+              <h2>Contato</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                lacinia mi quis euismod ultrices.
+              </p>
             </div>
+            <form>
+              <input
+                id="email"
+                type="email"
+                name="email"
+                required
+                placeholder="Seu melhor e-mail"
+              />
+              <button class="btn btn-send-email">Enviar</button>
+            </form>
           </div>
         </div>
       </section>
     </main>
+
     <footer>
-      <div class="conteinerFooter">
-        <p>Todos os direitos reservados- Eduardo de Souza.</p>
+      <div class="container">
+        <p>Todos os direitos reservados - Eduardo de Souza 2022/2023. </p>
       </div>
     </footer>
   </body>

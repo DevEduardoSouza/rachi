@@ -1,8 +1,11 @@
-# Site de Venda de Planos - HTML e CSS
+# Site de Venda de Planos - HTML , CSS e JS
 
-Este repositório contém um site desenvolvido em HTML e CSS, criado como um projeto de estudo para conhecer e praticar essas tecnologias. O objetivo do projeto é criar um template de venda de planos, focando no design e na estrutura do front-end.
+Este repositório contém um site desenvolvido em HTML, CSS e JS, criado como um projeto de estudo para conhecer e praticar essas tecnologias. O é desenvolver o front-end.
 
-![Imagem do Acarne Parte 2](img/img_projeto.png)
+## Desafio da comunidade CODELÂNDIA
+<a href="https://www.figma.com/file/Yb9IBH56g7T1hdIyZ3BMNO/Desafios---Codel%C3%A2ndia?type=design&node-id=41733-754&mode=design">Link Template</a>
+
+![Imagem do Projeto Rachi](img/img_projeto.png)
 <a href="https://rachi-projeto.netlify.app">Link</a>
 
 ## Descrição
@@ -19,14 +22,7 @@ O site de venda de planos é um projeto de estudo que tem como objetivo familiar
 
 - HTML5
 - CSS3
-
-## Como Usar
-
-1. Clone ou faça o download deste repositório para o seu ambiente local.
-
-2. Abra o arquivo `index.html` em um navegador da web.
-
-3. Explore o site e navegue entre as diferentes seções para visualizar os planos e seus detalhes.
+- JavaScript
 
 ## Contribuindo
 
