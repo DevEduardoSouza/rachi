@@ -36,6 +36,11 @@ body {
   background-color: var(--drak-40);
 }
 
+body {
+  height: 100%;
+  position: relative;
+}
+
 ul,
 li {
   list-style: none;
@@ -80,7 +85,6 @@ h2 {
   display: flex;
   margin: auto;
   justify-content: space-between;
-  
 }
 
 /* HEADER */
@@ -403,16 +407,19 @@ main {
   border: none;
   outline: none;
   border-bottom: 2px solid #000;
-  padding: .25rem 1rem;
+  padding: 0.25rem 1rem;
   color: var(--drak-40);
 }
+.send-contact-content input::placeholder{
+  color: #eff8ff;
+}
 
-.send-contact-content .btn-send-email{
-  padding: .75rem 2.25rem;
+.send-contact-content .btn-send-email {
+  padding: 0.75rem 2.25rem;
 }
 
 /* footer */
-footer .container{
+footer .container {
   justify-content: center;
   padding: 2rem 0;
   margin-top: 3rem;
@@ -423,6 +430,28 @@ footer p {
   font-weight: 400;
   color: var(--drak-20);
   text-align: center;
+}
+
+/* Manu mobile */
+nav.active {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 250px;
+  max-width: 90%;
+  display: block;
+  background-color: var(--drak-40);
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.089);
+}
+
+nav.active li {
+  display: flex;
+  margin: 3rem 0;
+}
+
+nav.active a {
+  font-size: 2rem;
 }
 
 /* RESPONSIVIDADE */
