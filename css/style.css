@@ -162,50 +162,48 @@ main {
 }
 
 /* info-section */
-
 .info-section {
   flex-direction: column;
-}
-.informacoes {
-  max-width: 700px;
-  height: 270px;
-  display: flex;
-  justify-content: space-evenly;
-  margin: auto;
-  position: relative;
-  margin-top: 4%;
+  gap: 6rem;
+  margin-top: 5rem;
 }
 
-.informacoes h3 {
-  font-family: var(--font1);
+.info-section .info-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin: auto;
+}
+
+.info-section .info-content > div {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.info-section .info-content .free-offer{
+  margin: 0 5rem;
+}
+
+.info-section .info-content .icon {
+  text-align: center;
+}
+
+.info-section .info-content h3 {
+  font-family: var(--font-sora);
   font-weight: 600;
   font-size: 1.8rem;
-  line-height: 2rem;
-  text-align: center;
-  margin-top: 14%;
-}
-
-.incones {
   text-align: center;
 }
 
-.informacoes p {
+.info-section .info-content p {
   font-size: 1.5rem;
-  font-family: var(--font2);
-  color: #6e7275;
-  margin-top: 13%;
-  width: 155px;
+  font-family: var(--font-inter);
+  color: var(--drak-20);
   text-align: center;
 }
 
-.Infos > h2 {
-  font-size: 4rem;
-  font-weight: 600;
-  font-family: var(--font1);
-  line-height: 11rem;
-  text-align: center;
-  color: #293145;
-}
 
 /*Terceira seção*/
 .conteinerApp {
