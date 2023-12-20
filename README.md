@@ -5,8 +5,12 @@ Este repositório contém um site desenvolvido em HTML, CSS e JS, criado como um
 ## Desafio da comunidade CODELÂNDIA
 <a href="https://www.figma.com/file/Yb9IBH56g7T1hdIyZ3BMNO/Desafios---Codel%C3%A2ndia?type=design&node-id=41733-754&mode=design">Link Template</a>
 
-![Imagem do Projeto Rachi](img/img_projeto.png)
-<a href="https://rachi-projeto.netlify.app">Link</a>
+
+## Desktop
+![Imagem do Projeto Rachi (Desktop)](./image/imgs-projeto/screencapture-rachi-projeto-netlify-app-2023-12-desktop.png)
+
+## Mobile
+![Imagem do Projeto Rachi (Mobile)](./image/imgs-projeto/screencapture-rachi-projeto-netlify-app-2023-12-mobile.png)
 
 ## Descrição
 
