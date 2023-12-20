@@ -49,6 +49,26 @@ button {
   border: none;
 }
 
+h2 {
+  font-family: var(--font-sora);
+  font-weight: 600;
+  text-align: center;
+  font-size: 3rem;
+  color: var(--drak-10);
+}
+
+.btn {
+  font-family: var(--font-inter);
+  background-color: var(--brand-color);
+  color: var(--drak-40);
+  border-radius: 3rem;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #054c80;
+  transition: 0.9s;
+}
+
 .hide {
   display: none;
 }
@@ -106,65 +126,46 @@ header .btn-toggle i {
 
 /* MAIN */
 main {
-  margin: auto;
-  max-width: 1500px;
-  position: relative;
-}
-.primeiroConteudo {
-  background-color: var(--corW200);
-  height: 590px;
-  width: 100vw;
-  position: relative;
+  flex-direction: column;
+  gap: 5rem;
 }
 
-.conteudo {
-  max-width: 1000px;
-  position: absolute;
-  top: 0%;
-  left: 13%;
-  display: flex;
+/* register-site */
+.bg-default {
+  width: 100%;
+  background-color: #eff8ff;
+}
+
+.register-site .container {
   align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
-.conteudo > h1 {
-  width: 562px;
-  height: 131px;
-  font-family: var(--font1);
+
+.register-site .container .main-heading {
+  font-family: var(--font-sora);
+  color: var(--drak-10);
   font-weight: 600;
-  font-size: 4.2rem;
-  color: var(--corG200);
-  line-height: 45px;
-  margin: 0%;
+  font-size: 5rem;
+  line-height: 6rem;
+  margin-top: 4rem;
 }
 
-.button {
-  position: absolute;
-  bottom: 11%;
-}
-a {
-  text-decoration: none;
-}
-a .estiloButton {
-  padding: 16px 36px 16px 36px;
-  display: block;
-  border-radius: 50px;
-  background-color: var(--corBlue);
-  color: white;
-  border: none;
-  box-shadow: 3px 4px 15px rgba(0, 0, 0, 0.329);
-  cursor: pointer;
+.register-site .container .signup-button {
+  padding: 1.5rem 5rem;
+  margin-top: 3rem;
 }
 
-.estiloButton:hover {
-  background-color: #054c80;
-  transition: 0.9s;
-}
-.imgJovem {
-  width: 500px;
-  height: 500px;
+.register-site .image-container img {
+  width: 100%;
+  height: 100%;
 }
 
-/*Segunda seção*/
+/* info-section */
 
+.info-section {
+  flex-direction: column;
+}
 .informacoes {
   max-width: 700px;
   height: 270px;
@@ -514,6 +515,9 @@ span {
 
 /* RESPONSIVIDADE */
 @media (max-width: 750px) {
+  html {
+    font-size: 50%;
+  }
   header .btn-toggle {
     display: block;
   }
