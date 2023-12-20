@@ -1,195 +1,224 @@
-<!--https://www.figma.com/file/Yb9IBH56g7T1hdIyZ3BMNO/Desafios---Codel%C3%A2ndia?node-id=41733%3A754-->
-
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="js/index.js" defer></script>
+    <!-- BOTSTRAP ICONS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css"
+    />
     <title>Rachi</title>
-</head>
-<body>
-    <header>
-        <img src="img/logo_rachi.svg" alt="Logo rachi">
-        <nav>
-            <ul>
-                <li><a href="#como-funciona">Funcionalidades</a></li>
-                <li><a href="#app">App</a></li>
-                <li><a href="#planos">Planos</a></li>
-                <li><a href="#contato">Contato</a></li>
-            </ul>
-        </nav>
+  </head>
+  <body>
+    <header class="container">
+      <div class="brand">
+        <a href="./index.html">
+          <img src="image/logo.svg" alt="brand rachi" />
+        </a>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#como-funciona">Funcionalidades</a></li>
+          <li><a href="#app">App</a></li>
+          <li><a href="#planos">Planos</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+      <div class="btn-toggle">
+        <i class="bi bi-list"></i>
+      </div>
     </header>
 
     <main>
-        <section class="background">
-        </section>
+      <section class="background"></section>
 
-        <section class="conteudo">
-            <h1>Rachi,<br>
-                é tudo que você <br>
-                precisa em um só lugar.
-            </h1>
-            <img class="imgJovem" src="img/Working from anywhere-rafiki 1.png" alt="jovem estudando">
+      <section class="conteudo">
+        <h1>
+          Rachi,<br />
+          é tudo que você <br />
+          precisa em um só lugar.
+        </h1>
+        <img
+          class="imgJovem"
+          src="img/Working from anywhere-rafiki 1.png"
+          alt="jovem estudando"
+        />
 
-            <div class="button">
-                <a href="#"><button class="estiloButton">Cadastrar</button></a>
+        <div class="button">
+          <a href="#"><button class="estiloButton">Cadastrar</button></a>
+        </div>
+      </section>
+
+      <section class="Infos">
+        <h2><a name="como-funciona">Como funciona</a></h2>
+
+        <div class="informacoes">
+          <div class="crieConexoes">
+            <div class="incones">
+              <img src="img/crie_conexoes.svg" alt="icone criar conexões" />
             </div>
-            
-        </section>
+            <h3>Crie conexões</h3>
+            <p>
+              Lorem ipsum dolor sit amet,<br />
+              consecteteu.
+            </p>
+          </div>
 
-
-        <section class="Infos">
-            <h2><a name="como-funciona">Como funciona</a></h2>
-            
-
-            <div class="informacoes">
-
-                <div class="crieConexoes">
-                    <div class="incones">
-                       <img src="img/crie_conexoes.svg" alt="icone criar conexões">
-                    </div>
-                    <h3>Crie conexões</h3>
-                    <p>Lorem ipsum dolor sit amet,<br>
-                        consecteteu.</p>
-                </div>
-
-                <div class="gratuidade">
-                    <div class="incones">
-                        <img src="img/carbon_security.svg" alt="icone segurança">
-                    </div>
-
-                    <h3>100% gratuito</h3>
-                    <p>Lorem ipsum dolor sit amet,<br>
-                        consecteteu.</p>
-                    
-                </div>
-
-                <div class="compartilhamento">
-                    <div class="incones">
-                        <img src="img/heroicons-outline_emoji-happy.svg" alt="imoji carinha feliz">
-                    </div>
-
-                    <h3>Compartilhamento</h3>
-                    <p>Lorem ipsum dolor sit amet,<br>
-                        consecteteu.</p>
-                </div>
-
+          <div class="gratuidade">
+            <div class="incones">
+              <img src="img/carbon_security.svg" alt="icone segurança" />
             </div>
 
+            <h3>100% gratuito</h3>
+            <p>
+              Lorem ipsum dolor sit amet,<br />
+              consecteteu.
+            </p>
+          </div>
+
+          <div class="compartilhamento">
+            <div class="incones">
+              <img
+                src="img/heroicons-outline_emoji-happy.svg"
+                alt="imoji carinha feliz"
+              />
+            </div>
+
+            <h3>Compartilhamento</h3>
+            <p>
+              Lorem ipsum dolor sit amet,<br />
+              consecteteu.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <div class="conteinerLarg">
+        <section class="conteinerApp">
+          <div class="background">
+            <div class="conteudoMain">
+              <div class="text">
+                <h2><a name="app">Baixe nosso app para desfrutar mais!</a></h2>
+                <p>
+                  Amet in elementum nulla scelerisque dui, egestas at. Elit
+                  consectetur turpis elementum amet vitae et etiam nec. Varius
+                  volutpat hac adipiscing tincidunt pretium.
+                </p>
+              </div>
+              <img
+                class="imgNoti"
+                src="img/New notifications-amico 1.png"
+                alt=""
+              />
+            </div>
+
+            <div class="conteudoTerceira">
+              <div class="imgApp">
+                <a href="#">
+                  <img
+                    class="app"
+                    src="img/download-app-google_store.svg"
+                    alt=""
+                /></a>
+                <a href="#">
+                  <img class="app" src="img/download-app-app_store.svg" alt=""
+                /></a>
+              </div>
+            </div>
+          </div>
         </section>
+      </div>
 
-
-        <div class="conteinerLarg">
-            <section class="conteinerApp">
-                <div class="background">
-                    
-                        <div class="conteudoMain">
-                            <div class="text">
-                                <h2><a name="app">Baixe nosso app para desfrutar mais!</a></h2>
-                                <p>Amet in elementum nulla scelerisque dui, egestas at. Elit consectetur turpis elementum amet vitae et etiam nec. Varius volutpat hac adipiscing tincidunt pretium.</p>
-                            </div>
-                            <img class="imgNoti" src="img/New notifications-amico 1.png" alt="">
-                        </div>
-
-                        <div class="conteudoTerceira">
-                            <div class="imgApp">
-                                <a href="#"> <img class="app" src="img/download-app-google_store.svg" alt=""></a>
-                                <a href="#"> <img class="app" src="img/download-app-app_store.svg" alt=""></a>
-                            </div>
-        
-                         </div>
-
-                </div>
-
-            </section>
+      <section class="planos">
+        <div class="textPlanos">
+          <h2><a name="planos">Nossos Planos</a></h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+            <br />
+            lacinia mi quis euismod ultrices.
+          </p>
         </div>
 
-        <section class="planos">
+        <div class="tiposPlanos">
+          <div class="planoBronze">
+            <h3 class="color_B_O">Bronze</h3>
+            <p class="valores"><sup>R$</sup>28 <span>/mês</span></p>
 
-            <div class="textPlanos">
-                <h2><a name="planos">Nossos Planos</a></h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec <br> lacinia mi quis euismod ultrices.</p>
+            <p class="beneficios">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+              lacinia mi quis euismod ultrices.
+            </p>
+            <div class="btnPlanos">
+              <a href="#"><button class="buttonPlanos">Assinar</button></a>
+            </div>
+          </div>
+
+          <div class="planoPrata">
+            <h3 class="colorPrata">Prata</h3>
+            <div class="preferido">
+              <p>preferido</p>
             </div>
 
-            <div class="tiposPlanos">
-
-                <div class="planoBronze">
-                    
-                    <h3 class="color_B_O">Bronze</h3>
-                    <p class="valores"> <sup>R$</sup>28 <span>/mês</span> </p>
-                    
-                    <p class="beneficios">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia mi quis euismod ultrices.</p>
-                    <div class="btnPlanos">
-                        <a href="#"><button class="buttonPlanos">Assinar</button></a>
-                    </div>
-                </div>
-
-                <div class="planoPrata">
-
-                    <h3 class="colorPrata">Prata</h3>
-                    <div class="preferido">
-                        <p>preferido</p>
-                    </div>
-                    
-                    <p class="valoresPrata">  <sup>R$</sup>57<span>/mês</span> </p>
-                    <p class="beneficiosPrata">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia mi quis euismod ultrices.</p>
-                    <div class="btnPlanos">
-                        <a href="#"><button class="buttonPlanos">Assinar</button></a>
-                    </div>
-
-                </div>
-
-
-                <div class="planoOuro">
-                    <h3 class="color_B_O">Ouro</h3>
-                    <p class="valores"> <sup>R$</sup>94<span>/mês</span> </p>
-                    <p class="beneficios">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia mi quis euismod ultrices.</p>
-                    <div class="btnPlanos">
-                        <a href="#"><button class="buttonPlanos">Assinar</button></a>
-                    </div>
-                </div>
-
+            <p class="valoresPrata"><sup>R$</sup>57<span>/mês</span></p>
+            <p class="beneficiosPrata">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+              lacinia mi quis euismod ultrices.
+            </p>
+            <div class="btnPlanos">
+              <a href="#"><button class="buttonPlanos">Assinar</button></a>
             </div>
+          </div>
 
-        </section>
+          <div class="planoOuro">
+            <h3 class="color_B_O">Ouro</h3>
+            <p class="valores"><sup>R$</sup>94<span>/mês</span></p>
+            <p class="beneficios">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+              lacinia mi quis euismod ultrices.
+            </p>
+            <div class="btnPlanos">
+              <a href="#"><button class="buttonPlanos">Assinar</button></a>
+            </div>
+          </div>
+        </div>
+      </section>
 
-        <section>
-            <div class="conteiener">
-                <div class="backgroundNotebook">
+      <section>
+        <div class="conteiener">
+          <div class="backgroundNotebook">
+            <div class="imgFundoForm"></div>
 
-                    <div class="imgFundoForm">
-                    </div>
-                   
+            <div class="conteudoInput">
+              <div class="conteudo_text_input">
+                <h2><a name="contato">Contato</a></h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                  lacinia mi quis euismod ultrices.
+                </p>
+              </div>
 
-                    <div class="conteudoInput">
-
-                        <div class="conteudo_text_input">
-                            <h2><a name="contato">Contato</a></h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia mi quis euismod ultrices.</p>
-                        </div>
-
-                         <form action="#" method="post">
-                             <div class="inpuBtn">
-                                <input type="email" name="email" value="Seu melhor e-mail">
-                                <a href=""><input type="submit" class="buttonInput" value="Enviar" ></a>
-                             </div>
-                         </form>
-
-                    </div>
-
+              <form action="#" method="post">
+                <div class="inpuBtn">
+                  <input type="email" name="email" value="Seu melhor e-mail" />
+                  <a href=""
+                    ><input type="submit" class="buttonInput" value="Enviar"
+                  /></a>
                 </div>
+              </form>
             </div>
-        </section>
+          </div>
+        </div>
+      </section>
 
-        <footer>
-            <div class="conteinerFooter">
-                <p>Todos os direitos reservados- Eduardo de Souza.</p>
-            </div>
-        </footer>
-        
+      <footer>
+        <div class="conteinerFooter">
+          <p>Todos os direitos reservados- Eduardo de Souza.</p>
+        </div>
+      </footer>
     </main>
-    
-</body>
+  </body>
 </html>
