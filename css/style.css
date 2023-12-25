@@ -28,11 +28,14 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 html,
 body {
   font-family: var(--font-inter);
   font-size: 65.2%;
-  scroll-behavior: smooth;
   background-color: var(--drak-40);
 }
 
@@ -178,7 +181,7 @@ main {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 1rem;
+  gap: 3.5rem;
   margin: auto;
 }
 
@@ -410,7 +413,7 @@ main {
   padding: 0.25rem 1rem;
   color: var(--drak-40);
 }
-.send-contact-content input::placeholder{
+.send-contact-content input::placeholder {
   color: #eff8ff;
 }
 
